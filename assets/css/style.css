@@ -1457,10 +1457,10 @@ Google map
 }
 
 /*--------------------------------------------------------------
-	Services & Features
+	Partners and features
 --------------------------------------------------------------*/
 .features-item {
-  margin: 20px 0;
+  margin: 20px 40px;
   text-align: center;
 }
 
@@ -2678,10 +2678,9 @@ Google map
   .navbar-custom {
     letter-spacing: 0;
   }
-/* press */
-  #press-grid{
-    display: none;
-  }
+
+
+
   /* Headers */
   .ycenter-title-size-3 {
     letter-spacing: 8px;
@@ -2702,6 +2701,14 @@ Google map
   .side-image {
     position: relative;
     height: 300px;
+  }
+  /* press */
+  #press-grid{
+    display: none;
+  }
+
+  .features-item{
+    margin:20px 20px;
   }
 }
 
@@ -2764,7 +2771,7 @@ Google map
     letter-spacing: 6px;
     font-size: 28px;
   }
-  /* Features */
+  /* Features /partner*/
   .features-item {
     margin: 0 0 30px;
   }
@@ -2777,6 +2784,11 @@ Google map
     position: static;
     width: auto;
     margin: 0 auto 8px;
+  }
+
+  .features-img{
+    max-width: 100%;
+    max-height: 40px;
   }
   /* Callout */
   .callout-text {

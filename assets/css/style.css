@@ -2619,7 +2619,6 @@ Google map
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
 
-
   .navbar-transparent {
     background: transparent;
     padding-bottom: 15px;
@@ -2679,6 +2678,10 @@ Google map
   .navbar-custom {
     letter-spacing: 0;
   }
+/* press */
+  #press-grid{
+    display: none;
+  }
   /* Headers */
   .ycenter-title-size-3 {
     letter-spacing: 8px;
@@ -2734,36 +2737,13 @@ Google map
     right: 7px;
     content: "\f106";
   }
-  /* Shop navbar */
-  .navbar-custom .navbar-nav > li:last-child.navbar-cart > a {
-    padding-left: 15px;
-  }
-  .navbar-custom .cart-item-number {
+  
+  /* Press */
+
+  #press-grid{
     display: none;
   }
-  .navbar-custom .navbar-cart > a:after {
-    content: "\f107";
-  }
-  .navbar-custom .navbar-cart-item a {
-    border: 0 !important;
-  }
-  .dropdown-menu.cart-list {
-    text-align: left;
-    border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
-  }
-  .navbar-cart-item {
-    border: none;
-    border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
-    padding-bottom: 10px;
-  }
-  .navbar-cart-img {
-    display: none;
-  }
-  .navbar-cart-title {
-    white-space: normal;
-    padding: 0;
-    margin-left: 0;
-  }
+
   /* Headers */
 
   .ycenter-title-size-1 {

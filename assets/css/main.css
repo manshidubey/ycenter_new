@@ -1670,12 +1670,12 @@
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		/*border-bottom: dotted 1px rgba(88, 88, 88, 0.5);*/
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			/*color: #f2849e !important;*/
 		}
 
 	strong, b {
@@ -2586,7 +2586,8 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #000000;
+			background-color: #37b1cf
+;
 			box-shadow: none;
 			color: #ffffff !important;
 		}

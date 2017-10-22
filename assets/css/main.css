@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -2367,7 +2362,7 @@
 
 		.image.main {
 			display: block;
-			margin: 0 auto;
+			margin: 2% auto;
 			width: 80%;
 
 		}

@@ -161,7 +161,7 @@ a,
 }
 
 .module,
-.module-small {
+.module-small  {
   position: relative;
   padding: 140px 0;
   background-repeat: no-repeat;
@@ -180,6 +180,10 @@ a,
 
 .module-medium {
   padding: 75px 0px;
+}
+
+.module-lg {
+  padding: 180px 0;
 }
 
 .holder-w {
@@ -210,6 +214,8 @@ a,
   border-top: 1px solid #202020;
   margin: 0;
 }
+
+
 
 /* Half-image */
 .side-image {

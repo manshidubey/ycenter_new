@@ -134,7 +134,7 @@
 		margin: 0 0 1em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2  {
 		color: #3c3b3b;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
@@ -153,22 +153,8 @@
 		font-size: 1.1em;
 	}
 
-	h3 {
-		font-size: 0.9em;
-	}
-
-	h4 {
-		font-size: 0.7em;
-	}
-
-	h5 {
-		font-size: 0.7em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-	}
-
+	
+	
 	
 
 	.align-left {
@@ -1050,7 +1036,7 @@
 					#header .main ul li > a {
 						text-decoration: none;
 						border-bottom: 0;
-						color: #aaaaaa;
+						color: #aaaaaa; 
 						overflow: hidden;
 						position: relative;
 						text-indent: 4em;
@@ -1097,8 +1083,6 @@
 				#header h1 {
 					padding: 0 0 0 1em;
 				}
-
-
 		}
 
 

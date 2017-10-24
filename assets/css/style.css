@@ -686,6 +686,10 @@ a,
   border-radius: 30px;
 }
 
+.btn.btn-y {
+  background: #FFC857 ;
+  color: #111;
+}
 .btn.btn-w {
   background: rgba(255, 255, 255, 0.8);
   color: #111;
@@ -714,9 +718,15 @@ a,
   color: #fff;
 }
 
+.btn.btn-border-y {
+  background: #FFC857;
+  border: #FFC857;
+  color: #ffffff;
+}
+
 .btn.btn-border-w:hover,
 .btn.btn-border-w:focus {
-  background: #fff;
+  background:#FFC857;
   border-color: transparent;
   color: #111;
 }
@@ -1807,7 +1817,7 @@ Google map
   width: 50%;
   float: left;
   margin-bottom: 1%;
-  box-shadow: 5px 5px 2px #888888;
+  /*box-shadow: 5px 5px 2px #888888;*/
 }
 
 .works-grid-3 .work-item {

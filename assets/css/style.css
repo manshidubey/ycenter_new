@@ -2692,6 +2692,7 @@ Google map
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
 
+
   .navbar-transparent {
     background: transparent;
     padding-bottom: 15px;
@@ -2916,7 +2917,11 @@ Google map
     width: 100%;
   }
 
-  
+  .ycenter-caption{
+    width:100%;
+    margin:0,auto;
+    padding:1px;
+  }
 
   #press-grid{
     display: none;

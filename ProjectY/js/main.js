@@ -52,10 +52,8 @@
 
 	// Owl Carousel
 	var carouselTestimony = function() {
-
-		var owl = $(".owl-carousel");
 		
-		owl.owlCarousel({
+		$(".owl-carousel").owlCarousel({
 			items: 1,
 		    margin: 0,
 		    responsiveClass: true,
@@ -83,7 +81,13 @@
 		      "<i class='icon-arrow-right owl-direction'></i>"
 	     	]
 		});
+       
 	};
+
+
+
+
+
 
 
 	var footerFixed = function() {

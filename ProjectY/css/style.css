@@ -9069,7 +9069,7 @@ a > img.fh5co-align-center {
 }
 
 /*--------------------------------*/
-/***** Portfolio Common style *****/
+/***** Impact grid style *****/
 /*--------------------------------*/
 
 .grid {
@@ -9281,4 +9281,88 @@ figure.effect-bubba:hover p {
 }
 
 
+}
+
+
+/*--------------------
+4.6. Team
+--------------------*/
+
+.team-item {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.team-item h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-item .team-location {
+    color: #C5C5C5;
+    font-size: 13px;
+    margin-bottom: 20px;    
+}
+
+.team-item .team-location {
+    color: #C5C5C5;
+    font-size: 12px;
+    margin-bottom: 20px;    
+}
+
+.team-item .team-position {
+    color: #000;
+    font-size: 12px;
+}
+
+.team-item p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #9C9C9C;
+    padding: 5px 10px 20px 10px;
+}
+/*-----------------------------------------------
+  Press Grid Style
+  ---------------------------------------------*/
+
+  
+  .our-clients-section{
+    margin-bottom:2.143em;   
+    padding:2.143em 0;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 8px 20px rgba(85, 89, 93,0.2);
+    -webkit-box-shadow: 0px 8px 20px rgba(85, 89, 93,0.2);
+    -moz-box-shadow: 0px 8px 20px rgba(85, 89, 93,0.2);
+  }
+  #our-client-thumb{
+    position: relative;
+    padding: 0 30px;
+    text-align: center;
+  }
+.customNavigation a{
+    position: absolute;
+    top: 33%;
+    font-size: 1.25rem;  
+    color: #ffffff;
+    cursor: pointer;
+    width: 1.667em;
+    text-align: center;
+    background: #55595d;
+    padding: 3px 12px;      
+}
+.customNavigation .prev {
+    float: left;
+    left: 0;
+}
+.customNavigation .next {
+    float: right;
+    right: 0;
+}
+.customNavigation a:hover{
+  background: #F9C535; 
+}
+.customNavigation i{
+  color:#ffffff;
+  vertical-align: baseline;
 }
